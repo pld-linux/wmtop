@@ -2,7 +2,7 @@ Summary:	Dockapp version of the cpu moniotring utility top
 Summary(pl):	Aplet bêd±cy odmian± narzêdzia monitoruj±cego top
 Name:		wmtop
 Version:	0.84
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmtop/%{name}-%{version}.tar.bz2
@@ -25,7 +25,8 @@ monitoruj±cego procesor top.
 
 %build
 %{__make} linux \
-	OPTS="%{rpmcflags}"
+	OPTS="%{rpmcflags}" \
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
