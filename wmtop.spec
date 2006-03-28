@@ -25,6 +25,7 @@ monitoruj±cego procesor top.
 
 %build
 %{__make} linux \
+	CC="%{__cc}" \
 	OPTS="%{rpmcflags}" \
 	LIBDIR="-L/usr/X11R6/%{_lib}"
 
@@ -42,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES README TODO
+%doc BUGS CHANGES README TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %{_mandir}/man1/*
 %{_desktopdir}/docklets/*
