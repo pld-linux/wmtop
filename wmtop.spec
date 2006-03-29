@@ -29,7 +29,7 @@ monitoruj±cego procesor top.
 	CC="%{__cc}" \
 	INCS="/usr/include/X11" \
 	OPTS="%{rpmcflags}" \
-	LIBDIR="-L%{_libdir}"
+	LIBDIR=
 
 %install
 rm -rf $RPM_BUILD_ROOT
