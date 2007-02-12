@@ -1,5 +1,5 @@
 Summary:	Dockapp version of the cpu moniotring utility top
-Summary(pl.UTF-8):   Aplet będący odmianą narzędzia monitorującego top
+Summary(pl.UTF-8):	Aplet będący odmianą narzędzia monitorującego top
 Name:		wmtop
 Version:	0.84
 Release:	3
