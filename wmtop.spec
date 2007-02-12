@@ -1,5 +1,5 @@
 Summary:	Dockapp version of the cpu moniotring utility top
-Summary(pl):	Aplet bêd±cy odmian± narzêdzia monitoruj±cego top
+Summary(pl.UTF-8):   Aplet bÄ™dÄ…cy odmianÄ… narzÄ™dzia monitorujÄ…cego top
 Name:		wmtop
 Version:	0.84
 Release:	3
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Wmtop is a WindowMaker dockapp that is a mini graphical version of the
 cpu monitoring utility top.
 
-%description -l pl
-Wmtop jest apletem WindowMakera, który jest graficzn± wersj± narzêdzia
-monitoruj±cego procesor top.
+%description -l pl.UTF-8
+Wmtop jest apletem WindowMakera, ktÃ³ry jest graficznÄ… wersjÄ… narzÄ™dzia
+monitorujÄ…cego procesor top.
 
 %prep
 %setup -q
