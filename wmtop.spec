@@ -2,7 +2,7 @@ Summary:	Dockapp version of the cpu moniotring utility top
 Summary(pl.UTF-8):	Aplet będący odmianą narzędzia monitorującego top
 Name:		wmtop
 Version:	0.84
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmtop/%{name}-%{version}.tar.bz2
